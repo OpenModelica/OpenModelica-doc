@@ -65,7 +65,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenModelica User\'s Guide'
-copyright = u'2015, Open Source Modelica Consortium'
+copyright = u' 2016, Open Source Modelica Consortium'
 author = u'Open Source Modelica Consortium'
 
 # The version info for the project you're documenting, acts as replacement for
