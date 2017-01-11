@@ -551,7 +551,7 @@ Move Up/Down/Left/Right    Left and Right Mouse Hold      Move Mouse
 Rotate                     Left Mouse Hold                Move Mouse
 ========================  ============================== ========================
 
-Predefined views (Isometric, Side, Front, Top) can be selected and the scene can be tilted by 90° either clock or anticlockwise with the rotation buttons.
+Predefined views (normal to x-y, y-z, x-z) can be selected, as well.
 
 
 How to Create User Defined Shapes – Icons
