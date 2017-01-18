@@ -346,7 +346,7 @@ General Tab
 
 -  *Launch Algorithmic Debugger* – launches the algorithmic debugger.
 
--  *Launch Animation* – launches the 3d animation window.
+-  *Launch Animation* – launches the 3D animation window.
 
 Output Tab
 ~~~~~~~~~~
@@ -506,7 +506,7 @@ which replaces third-party libraries (such as `Modelica3D
 Running a Visualization
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The 3d visualization is based on OpenSceneGraph. In order to run the
+The 3D visualization is based on OpenSceneGraph. In order to run the
 visualization simply right click the class in Libraries Browser an
 choose “\ **Simulate with Animation**\ ” as shown in :numref:`omedit-simulate-animation`.
 
