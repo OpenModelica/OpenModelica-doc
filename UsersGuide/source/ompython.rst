@@ -65,8 +65,8 @@ To get started, create a ModelicaSystem object:
 
 The object constructor requires a minimum of 2 input arguments which are strings, and may need a third string input argument. 
 
-- The ﬁrst input argument must be a string with the ﬁle name of the Modelica code, with Modelica ﬁle extension ".mo"
-  If the  Modelica ﬁle is not in the current directory of Python, then the ﬁle path must also be included
+- The first input argument must be a string with the file name of the Modelica code, with Modelica file extension ".mo"
+  If the  Modelica file is not in the current directory of Python, then the file path must also be included
   
 -  The second input argument must be a string with the name of the Modelica model 
    including the namespace if the model is wrapped within a Modelica package
@@ -86,7 +86,7 @@ Standard get methods API
 Two calling possibilities are accepted using getXXX() where "XXX" can be any of the above functions (eg:) getParameters().
 
 -  getXXX() without input argument, returns a dictionary with names as keys and values as values. 
--  getXXX(S), where S is a sequence of strings of names, returns a tuple of values for the speciﬁed names.
+-  getXXX(S), where S is a sequence of strings of names, returns a tuple of values for the specified names.
 
 
 Standard set methods API
