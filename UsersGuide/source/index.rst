@@ -21,6 +21,7 @@ OpenModelica User's Guide
   omsimulator
   optimization
   parametersensitivity
+  pdemodelica
   mdt
   mdtdebugger
   profiler
