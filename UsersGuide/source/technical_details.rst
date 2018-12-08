@@ -21,6 +21,7 @@ Aclass
   - ``Aclass(2,:)`` is ``1.1`` in OpenModelica
   - ``Aclass(3,:)`` is empty
   - ``Aclass(4,:)`` is either ``binTrans`` or ``binNormal``
+
   The most important part of the variable is ``Aclass(4,:)`` since there are
   two main ways the result-file is stored: transposed or not.
   For efficiency, the result-file is written time-step by time-step during
