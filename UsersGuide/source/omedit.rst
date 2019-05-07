@@ -708,6 +708,13 @@ Since OpenModelica 1.11 , OMEdit has built-in 3D visualization,
 which replaces third-party libraries (such as `Modelica3D
 <https://github.com/OpenModelica/Modelica3D>`_) for 3D visualization.
 
+OMEdit can visualize geometric primitves from the “\ **Modelica.Mechanics.MultiBody**\ ” library.
+The base model for visualizers is “\ **Modelica.Mechanics.MultiBody.Visualizers.Advanced.Shape**\ ”.
+CAD-based 3D-animation can be used with a “\ **Shape**\ ” model by setting the “\ **shapeType**\ ” parameter to:
+“\ **modelica://packageName/pathToCADFile.stl**\ ”.
+Usually, the CAD-files are stored in the package directory in a folder called “\ **Resources/stl/**\ ”.
+Currently, ASCII-based stl and dxf files are supported.
+
 Running a Visualization
 ~~~~~~~~~~~~~~~~~~~~~~~
 
